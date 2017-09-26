@@ -1,0 +1,23 @@
+﻿@using OAuth2.Models
+@model UserInfo
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (Model != null)
+{
+    <text>Your email is:</text>
+    @Model.Email
+}
+else
+{
+    <p>
+        Well, hello there!
+    </p>
+    <p>
+        We're going to now talk to the GitHub API. Ready?
+        <a href="@Html.Raw(ViewBag.Uri)">Click here</a> to begin!
+    </p>
+}

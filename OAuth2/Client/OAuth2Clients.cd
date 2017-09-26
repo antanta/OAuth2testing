@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OAuth2.Client.OAuthClient">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAABACAiICAABKACAQAEAECABAAgAACBAQAACA=</HashCode>
+      <FileName>Client\OAuthClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OAuth2.Client.OAuth2Client">
+    <Position X="4.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAEAAQAAQACAiIAAABDACAUQEAEAhBCAgAACBAACAkA=</HashCode>
+      <FileName>Client\OAuth2Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OAuth2.Client.Impl.GitHubClient">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OAuth2.Client.Impl.GitHubClient.UserEmails" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Client\Impl\GitHubClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAIAAAADACAQAAAAAABAgAIACAAAAAAA=</HashCode>
+      <FileName>Client\Impl\GitHubClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OAuth2.Client.IClient">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAQAEAAAABAAgAAABAAAAAA=</HashCode>
+      <FileName>Client\IClient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
